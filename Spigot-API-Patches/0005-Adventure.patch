@@ -2933,7 +2933,7 @@ index 94852d50e88d0594b84b581cd627174043629995..0cfd4b02cc2095da56b4dc8d4ea4e9b4
 +     * Limited to 32 characters. Removes title when given null.
 +     *
 +     * @param title the title to set
-+     * @return true if the title was successfully set
++     * @return the same {@link BookMeta} instance
 +     */
 +    @NotNull
 +    @Override
@@ -2955,6 +2955,7 @@ index 94852d50e88d0594b84b581cd627174043629995..0cfd4b02cc2095da56b4dc8d4ea4e9b4
 +     * Sets the author of the book. Removes author when given null.
 +     *
 +     * @param author the author to set
++     * @return the same {@link BookMeta} instance
 +     */
 +    @NotNull
 +    @Override
